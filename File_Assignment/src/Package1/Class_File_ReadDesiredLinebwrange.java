@@ -17,7 +17,7 @@ public class Class_File_ReadDesiredLinebwrange {
     	while ((s=b.readLine())!=null) {
     		count++;
     		if ((count>=i) && (count<=j)) {
-    		     System.out.println(s);
+    		     System.out.print(s);
     		}
     	}
     	b.close();
